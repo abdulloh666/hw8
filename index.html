@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+
+    <h2>* denotes mandory</h2>
+
+    <form action="">
+
+        <p>Full name*:</p>
+        <input type="text" placeholder="FirstName LastName" required>
+        <p>Email address*:</p>
+        <input type="email" placeholder="EMAIL_ADDRESS" required>
+        <p>Select tour package*:</p>
+
+        <select name="" id="">
+            <option value="">Goa</option>
+            <option value="" >Uzbekistan</option>
+            <option value="">Home</option>
+        </select>
+        
+        <p>Arrival date*:</p>
+        <input type="date" required>
+        <p>Number of persons*:</p>
+        <input type="number" placeholder="UNKNOWN_TYPE" required>
+
+        <p>What would you want to avail?*:</p>
+        <span>Boarding</span>
+        
+        <input type="checkbox" ><br>
+        <span>Fooding</span>
+        <input type="checkbox" >
+        <br>
+        <span>Sign seeing</span>
+        <input type="checkbox" >
+
+        <p>Discount coupon code*:</p>
+        <input type="number" placeholder="UNKNOWN_TYPE" minlength="8" maxlength="8" required>
+
+        <p>Terms and conditions*</p>
+
+        <label for="term_1">I agree</label>
+        <input type="radio" name="term" id="term_1" required>
+
+        <label for="term_2">I disagree</label >
+        <input type="radio" name="term" id="term_2"required>
+        <br>
+        <br>
+
+        <button>Complate reservation</button>
+    </form>
+</body>
+</html>
